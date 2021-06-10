@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 60%;
+    margin:auto;
+}
+
+.child1 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: skyblue;
+    width:200px;
+}
+
+.child2 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: hotpink;
+    width:200px;
+}
+
+.child3 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: tan;
+    width:200px;
+}
+
+.child4 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: skyblue;
+    width:200px;
+}
+
+.child5 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: rgb(231, 231, 12);
+    width:200px;
+}
+
+.child6 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: red;
+    width:200px;
+}
+
+.child7 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: rgb(31, 194, 93);
+    width:200px;
+}
+
+.child8 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: red;
+    width:200px;
+}
+
+.child9 {
+    margin: 20px;
+    border: 12px solid rgb(255, 255, 255);
+    background-color: sandybrown;
+    width:200px;
+}
+
+.child {
+    transition: .5s;
+}
+
+.child:hover {
+    transform: scale(1.1);
+}
+
+body {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("24936.jpg");
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+em{
+    color: black;
+    font-weight: bold;
+}
+
